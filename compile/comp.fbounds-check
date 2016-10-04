@@ -1,0 +1,2 @@
+#!/bin/csh
+gfortran -fconvert=big-endian -fbounds-check -o ../run_model/thz_nh_model_run ../source/kinds.f90 ../source/model_parameters.f90 ../source/physical_parameters.f90 ../source/eta_coordinate.f90 ../source/prognostics.f90 ../source/semi_implicit_solvers.f90 ../source/mass_tendency.f90 ../source/tracer_transport.f90 ../source/physics.f90 ../source/eta_dot_diagnosis.f90 ../source/momentum_tendency.f90 ../source/step.f90 ../source/initialize.f90 ../source/output.f90 ../source/driver.f90
